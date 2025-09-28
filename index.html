@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>HetisRoan - Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/logo.png">
+</head>
+<body>
+
+  <!-- Decorative particles -->
+  <div class="firefly" style="top:8%; left:10%; animation-delay:0s;"></div>
+  <div class="firefly" style="top:20%; left:78%; animation-delay:1.2s;"></div>
+  <div class="firefly" style="top:58%; left:52%; animation-delay:2.2s;"></div>
+  <div class="firefly" style="top:82%; left:28%; animation-delay:3.3s;"></div>
+
+  <div class="wrap">
+
+    <!-- Header -->
+    <header>
+      <div class="header-inner">
+        <div class="brand">
+          <div class="logo">
+            <a href="index.html"><img src="images/logo.png" alt="HetisRoan logo"></a>
+          </div>
+          <div>
+            <div class="site-title">HetisRoan</div>
+            <div style="font-size:.85rem;color:#dbeafe">Minecraft & Roblox • Tips, Challenges & Community</div>
+          </div>
+        </div>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html">Over mij</a>
+          <a href="videos.html">Video's</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Top download -->
+    <section class="downloads fade-in" style="animation-delay:.15s">
+      <h2>Download Mijn Modpack</h2>
+      <p>Mijn modpack bevat performance- en adventure-mods, getest op Minecraft 1.21.x.</p>
+      <div style="display:flex;gap:12px;align-items:center;justify-content:center;margin-top:8px">
+        <button class="btn" id="download-top">Download Modpack</button>
+        <button class="btn-ghost" id="download-top-info">Installatie-instructies</button>
+      </div>
+    </section>
+
+    <!-- Hero -->
+    <section class="hero fade-in" id="hero">
+      <div class="content">
+        <h1>Welkom bij HetisRoan</h1>
+        <p>Avonturen, builds en spannende challenges — ontdek tips & tricks en word onderdeel van de community.</p>
+        <div class="cta" style="margin-top:18px">
+          <a class="btn" href="videos.html">Bekijk video's</a>
+          <a class="btn-ghost" href="contact.html" style="margin-left:12px">Contact / Samenwerken</a>
+        </div>
+        <div class="news-strip" style="justify-content:center;margin-top:18px">
+          <div class="news-item">Nieuw: SMP S3 Endfight video online 🎮</div>
+          <div class="news-item">Event: Community buildbattle — zaterdag 20:00</div>
+          <div class="news-item">Modpack update v1.2 live</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Populaire video's -->
+    <section class="videos fade-in" style="animation-delay:.4s">
+      <h2 style="text-align:center;margin-bottom:12px">Populaire video's</h2>
+      <div class="card-container">
+        <article class="card video-card">
+          <iframe src="https://www.youtube.com/embed/Zr6-ACn9bL8" title="Endfight Voorbereiden" allowfullscreen></iframe>
+          <h3>Endfight Voorbereiden</h3>
+          <p>Plan, gear en coördinatie — volledige uitleg SMP S3.</p>
+        </article>
+
+        <article class="card video-card">
+          <iframe src="https://www.youtube.com/embed/N7NYGHXjPV0" title="Boeven Vangen in Brookhaven" allowfullscreen></iframe>
+          <h3>Boeven Vangen</h3>
+          <p>Teamwork en chaos in Roblox — de beste momenten en tips.</p>
+        </article>
+
+        <article class="card video-card">
+          <iframe src="https://www.youtube.com/embed/zwkJqFCdrF0?start=274" title="Spoken Jagen" allowfullscreen></iframe>
+          <h3>Spoken Jagen</h3>
+          <p>Horror highlights: hoe je surviveert en de spanning verhoogt.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features fade-in" style="animation-delay:.65s">
+      <h2 style="text-align:center;margin-bottom:12px">Waarom volgen?</h2>
+      <div class="feature-cards">
+        <div class="card hover-info clickable" data-content="tips">
+          <div style="display:flex;gap:12px;align-items:center">
+            <div class="icon">T</div>
+            <div>
+              <h3>Tips & Tricks</h3>
+              <p>Praktische Minecraft builds en opname-tips voor je kanaal.</p>
+            </div>
+          </div>
+          <div class="tooltip">Klik voor tips</div>
+        </div>
+
+        <div class="card hover-info clickable" data-content="challenges">
+          <div style="display:flex;gap:12px;align-items:center">
+            <div class="icon">C</div>
+            <div>
+              <h3>Challenges</h3>
+              <p>Maandelijkse MC-challenges om met vrienden te spelen.</p>
+            </div>
+          </div>
+          <div class="tooltip">Speel mee!</div>
+        </div>
+
+        <div class="card hover-info clickable" data-content="community">
+          <div style="display:flex;gap:12px;align-items:center">
+            <div class="icon">❤</div>
+            <div>
+              <h3>Community</h3>
+              <p>Discord, livestream events en giveaways — join de club!</p>
+            </div>
+          </div>
+          <div class="tooltip">Join onze Discord</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Discord -->
+    <section class="card fade-in" style="animation-delay:.85s">
+      <h2>Sluit je aan bij de community</h2>
+      <p style="color:var(--muted)">Word lid van de Discord om mee te doen aan events, buildbattles en giveaways.</p>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center">
+        <a class="btn" href="#" title="Join Discord">Join Discord</a>
+        <a class="btn-ghost" href="videos.html">Bekijk community videos</a>
+      </div>
+    </section>
+
+    <!-- Bottom download -->
+    <section class="downloads fade-in" style="animation-delay:1.05s">
+      <h2>Download Mijn Modpack</h2>
+      <p>Directe download of via Modrinth. Gebruik de instructies voor een goede installatie.</p>
+      <div style="display:flex;gap:12px;align-items:center;justify-content:center;margin-top:8px">
+        <button class="btn" id="download-bottom">Download Modpack</button>
+        <button class="btn-ghost" id="download-bottom-info">Installatie-instructies</button>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-small">© <span id="year"></span> HetisRoan Studio's — Made with ♥ for the community</div>
+    </footer>
+
+  </div>
+
+  <!-- Modal -->
+  <div class="modal-bg" id="modal-bg">
+    <div class="modal" id="modal">
+      <h2 id="modal-title">Titel</h2>
+      <div id="modal-body" style="text-align:left;color:#e6f2ff"></div>
+      <div class="actions">
+        <a id="modal-download-link" class="btn" href="#" style="display:none">Download</a>
+        <button id="modal-close" class="btn-ghost">Sluiten</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Hero parallax
+    (function(){
+      const hero = document.getElementById('hero');
+      window.addEventListener('mousemove', e=>{
+        const w = window.innerWidth, h = window.innerHeight;
+        const x = (e.clientX - w/2) / w;
+        const y = (e.clientY - h/2) / h;
+        hero.style.transform = `translate3d(${x*6}px, ${y*6}px, 0)`;
+      });
+      window.addEventListener('mouseout', ()=>{ hero.style.transform='none'; });
+    })();
+
+    // Scroll reveal
+    const faders = document.querySelectorAll('.fade-in');
+    const observer = new IntersectionObserver((entries, obs)=>{
+      entries.forEach(e=>{
+        if(e.isIntersecting){ e.target.classList.add('show'); obs.unobserve(e.target); }
+      });
+    }, {threshold:0.15});
+    faders.forEach(f=>observer.observe(f));
+
+    // Modal interactions
+    const modalBg = document.getElementById('modal-bg');
+    const modal = document.getElementById('modal');
+    const modalTitle = document.getElementById('modal-title');
+    const modalBody = document.getElementById('modal-body');
+    const modalClose = document.getElementById('modal-close');
+    const modalDownloadLink = document.getElementById('modal-download-link');
+
+    // Feature cards
+    document.querySelectorAll('.clickable').forEach(card=>{
+      card.addEventListener('click', ()=>{
+        const t = card.dataset.content;
+        modalBg.style.display = 'flex';
+        modal.classList.add('show');
+        modalDownloadLink.style.display = 'none';
+        if(t==='tips'){ modalTitle.textContent='Tips & Tricks';
+          modalBody.innerHTML=`<ul style="padding-left:18px">
+            <li>Gebruik scaffolding bij grote builds.</li>
+            <li>Plan korte scripts voor video’s.</li>
+            <li>Leer basis redstone en automatische farms.</li>
+            <li>Gebruik goede audio en belichting.</li>
+          </ul>`;}
+        else if(t==='challenges'){ modalTitle.textContent='Minecraft Challenges';
+          modalBody.innerHTML=`<ul style="padding-left:18px">
+            <li>🏹 100 dagen Hardcore</li>
+            <li>🌌 Skyblock zonder hulpmiddelen</li>
+            <li>🔥 Nether-only runs</li>
+            <li>⏱️ Speedrun met vrienden</li>
+          </ul>`;}
+        else if(t==='community'){ modalTitle.textContent='Community';
+          modalBody.innerHTML=`<p>Join Discord voor events, buildbattles en giveaways.</p>`;}
+      });
+    });
+
+    function openModpackModal(){
+      modalBg.style.display='flex';
+      modal.classList.add('show');
+      modalTitle.textContent='Minecraft Modpack';
+      modalBody.innerHTML=`<p>Modpack bevat performance, QoL en adventure mods.</p>
+        <ul style="padding-left:18px">
+          <li>Compatibel met Minecraft 1.21.x</li>
+          <li>Installatie via Modrinth of handmatig</li>
+          <li>Includes: Worldgen, QoL, Performance mods</li>
+        </ul>`;
+      modalDownloadLink.style.display='inline-block';
+      modalDownloadLink.href='downloads/modpack.mrpack';
+    }
+    document.getElementById('download-top').addEventListener('click', openModpackModal);
+    document.getElementById('download-bottom').addEventListener('click', openModpackModal);
+
+    ['download-top-info','download-bottom-info'].forEach(id=>{
+      document.getElementById(id).addEventListener('click', ()=>alert('Download het modpack en importeer in je launcher (Forge/Modloader of Modrinth).'));
+    });
+
+    modalClose.addEventListener('click', ()=>{ modalBg.style.display='none'; modal.classList.remove('show'); modalDownloadLink.style.display='none'; });
+    modalBg.addEventListener('click', e=>{ if(e.target===modalBg){ modalBg.style.display='none'; modal.classList.remove('show'); modalDownloadLink.style.display='none'; } });
+
+    document.querySelectorAll('.video-card').forEach(vc=>{
+      vc.addEventListener('click', ()=>{
+        const title = vc.querySelector('h3')?.textContent || 'Video';
+        modalBg.style.display='flex';
+        modal.classList.add('show');
+        modalTitle.textContent = title;
+        modalBody.innerHTML=`<p>Uitleg bij "${title}" — beschrijving, tijdstempels en tips.</p>`;
+      });
+    });
+
+    document.addEventListener('keydown', e=>{ if(e.key==='Escape'){ modalBg.style.display='none'; modal.classList.remove('show'); modalDownloadLink.style.display='none'; } });
+
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact - HetisRoan</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/logo.png">
+</head>
+<body>
+
+  <div class="wrap">
+
+    <!-- Header -->
+    <header>
+      <div class="header-inner">
+        <div class="brand">
+          <div class="logo">
+            <a href="index.html"><img src="images/logo.png" alt="HetisRoan logo"></a>
+          </div>
+          <div>
+            <div class="site-title">HetisRoan</div>
+            <div style="font-size:.85rem;color:#dbeafe">Minecraft & Roblox • Tips, Challenges & Community</div>
+          </div>
+        </div>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html">Over mij</a>
+          <a href="videos.html">Video's</a>
+          <a href="contact.html" class="active">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Contact Hero -->
+    <section class="hero fade-in">
+      <div class="content">
+        <h1>Contact opnemen</h1>
+        <p>Heb je een vraag, wil je samenwerken of gewoon even hallo zeggen? Stuur me gerust een bericht.</p>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="card fade-in" style="animation-delay:.2s">
+      <h2>Stuur een bericht</h2>
+      <form action="https://formspree.io/f/mayvlrnk" method="POST" class="contact-form">
+        <div class="form-group">
+          <label for="name">Naam</label>
+          <input type="text" id="name" name="name" placeholder="Jouw naam" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">E-mailadres</label>
+          <input type="email" id="email" name="email" placeholder="jij@example.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Onderwerp</label>
+          <input type="text" id="subject" name="subject" placeholder="Waar gaat je bericht over?" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Bericht</label>
+          <textarea id="message" name="message" rows="6" placeholder="Typ hier je bericht..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn">Verstuur bericht</button>
+      </form>
+    </section>
+
+    <!-- Extra contact info -->
+    <section class="fade-in" style="animation-delay:.4s;text-align:center">
+      <h2>Andere manieren</h2>
+      <p>📧 E-mail: <a href="mailto:hetisroan@outlook.com">hetisroan@outlook.com</a></p>
+      <p>💬 Discord: <a href="https://discord.gg/wYpNjKjts5">Join mijn server</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-small">© <span id="year"></span> HetisRoan Studio's — Made with ♥ for the community</div>
+    </footer>
+
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>

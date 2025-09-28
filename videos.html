@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>HetisRoan - Video's</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/logo.png">
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <div class="brand">
+        <div class="logo">
+          <a href="index.html"><img src="images/logo.png" alt="HetisRoan logo"></a>
+        </div>
+        <div>
+          <div class="site-title">HetisRoan</div>
+          <div style="font-size:.85rem;color:#dbeafe">Minecraft & Roblox • Video's & SMP avonturen</div>
+        </div>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">Over mij</a>
+        <a href="videos.html" class="active">Video's</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+
+    <!-- Hero section -->
+    <section class="hero fade-in">
+      <div class="content">
+        <h1>Ontdek mijn nieuwste video's</h1>
+        <p>Van Minecraft avonturen tot Roblox chaos — en natuurlijk mijn YouTube SMP S3 series.</p>
+        <a href="#minecraft" class="btn">Bekijk Minecraft</a>
+        <a href="#smp" class="btn-ghost" style="margin-left:12px">Bekijk SMP</a>
+      </div>
+    </section>
+
+    <!-- Minecraft sectie -->
+    <section id="minecraft" class="videos fade-in" style="animation-delay:.2s">
+      <h2>Minecraft Video's</h2>
+      <div class="highlight">
+        <iframe src="https://www.youtube.com/embed/Zr6-ACn9bL8" title="Endfight Voorbereiden" allowfullscreen></iframe>
+        <div class="info">
+          <h3>Endfight Voorbereiden</h3>
+          <p>Alles wat je moet weten om klaar te zijn voor de Endfight in YouTube SMP S3.</p>
+        </div>
+      </div>
+      <div class="video-grid">
+        <iframe src="https://www.youtube.com/embed/zwkJqFCdrF0?start=274" title="Spoken Jagen" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/N7NYGHXjPV0" title="Boeven Vangen" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/abcd1234" title="Skyblock Avontuur" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!-- SMP sectie -->
+    <section id="smp" class="videos fade-in" style="animation-delay:.4s">
+      <h2>YouTube SMP S3</h2>
+      <div class="highlight">
+        <iframe src="https://www.youtube.com/embed/efgh5678" title="SMP S3 Episode 1" allowfullscreen></iframe>
+        <div class="info">
+          <h3>SMP S3 Episode 1</h3>
+          <p>De start van een nieuw avontuur met vrienden! Bases, plannen en teamwork.</p>
+        </div>
+      </div>
+      <div class="video-grid">
+        <iframe src="https://www.youtube.com/embed/ijkl9101" title="SMP S3 Episode 2" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/mnop1121" title="SMP S3 Buildbattle" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/qrst3141" title="SMP S3 Endfight Highlights" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!-- Roblox sectie -->
+    <section id="roblox" class="videos fade-in" style="animation-delay:.6s">
+      <h2>Roblox Video's</h2>
+      <div class="highlight">
+        <iframe src="https://www.youtube.com/embed/N7NYGHXjPV0" title="Roblox Chaos" allowfullscreen></iframe>
+        <div class="info">
+          <h3>Boeven Vangen in Brookhaven</h3>
+          <p>De leukste Roblox momenten met vrienden — vol chaos en fun!</p>
+        </div>
+      </div>
+      <div class="video-grid">
+        <iframe src="https://www.youtube.com/embed/abcd2222" title="Roblox Tycoon" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/abcd3333" title="Roblox Obby Run" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/abcd4444" title="Roblox Horror Game" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="downloads fade-in" style="animation-delay:.8s">
+      <h2>Wil je meer zien?</h2>
+      <p>Abonneer je op mijn YouTube kanaal en mis geen nieuwe afleveringen!</p>
+      <a href="https://youtube.com/@HetisRoan" class="btn" target="_blank">Abonneer</a>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-small">© <span id="year"></span> HetisRoan Studio's — Alle rechten voorbehouden</div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
