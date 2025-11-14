@@ -218,3 +218,7 @@ footer {
   white-space:nowrap;
   font-size:.9rem;
 }
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
